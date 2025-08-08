@@ -1,0 +1,12 @@
+{
+  "name": "performance-benchmark",
+  "version": "1.0.0",
+  "description": "Cross-language performance benchmark for sum calculation",
+  "scripts": {
+    "benchmark": "./scripts/run_benchmarks.sh",
+    "node": "node src/sum_node.js",
+    "bun": "bun src/sum_bun.js"
+  },
+  "keywords": ["benchmark", "performance", "javascript", "go", "rust"],
+  "license": "MIT"
+}
