@@ -5,7 +5,7 @@ use std::time::Instant;
 fn main() {
     let start = Instant::now();
 
-    let n: i6 = 100_000_000;
+    let n: i64 = 100_000_000;
     let num_threads = num_cpus::get();
     let chunk_size = n / num_threads as i64;
 
